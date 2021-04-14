@@ -13,7 +13,7 @@ import uuid
 #config['REGISTERY'] = "/Users/kilianhett/Experiments/STRAIT_NSF/modelzoo_registry"
 LOGGER = log.setup_debug_logger('manager', None)
 
-API_TOKEN = "07F402346C08493E5945DC7B32F57FA6"
+API_TOKEN = 0000
 API_URL = "https://redcap.vanderbilt.edu/api/"
 
 MODEL_STATUS = {'submitted':'4','pending':'3', 'rejected':'2', 'built':'5', 'validated':'1'}
